@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import axios from 'axios'
 import NasaPhoto from './Components/NasaPhoto'
 
-import "./App.css";
+import "./css/index.css";
 
 function App() {
     const [data, setData] = useState()
